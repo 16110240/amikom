@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery callback fuctions</title>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script>
+		$(document) .ready(function(){
+			$("button") .click(function(){
+				$("p") .hide("slow", function(){
+					alert("Paragraf Pemrograman Web TI  Disembunyikan");
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+<button>Hide</button>
+<p>Ini adalah Paragraf Pemrograman WEB TI</p>
+
+</body>
+</html>
